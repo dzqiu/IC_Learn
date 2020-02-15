@@ -23,6 +23,7 @@ initial begin
 end
 
 initial begin
+    $display("begin sim\n");
     #30;
     wr_en = 1; din = 4'd0;
     #8;din = 4'd1;

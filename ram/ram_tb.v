@@ -23,7 +23,7 @@ initial begin
     #20;
     rd_addr = 'd100;rd_en=1;
     #100;
-    $finish;
+    $finish
 
 
 end
